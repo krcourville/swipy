@@ -2,6 +2,11 @@
 
 An experiment with gestures
 
+## Utilized Technologies
+  - Twitter Bootstrap
+  - Hammer.js
+  - jQuery
+
 ## Running the application
 This application can be run with some web browsers
 simply by launching index.html.  However, some web browsers
