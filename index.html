@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Swipy - an experiment with gestures</title>
+
+	<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="vendor/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+	<link href="app/style.css" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<div class="container">
+
+		<div class="starter-template">
+			<h1>Swipy</h1>
+			<p class="lead">....an experiment with scripted gestures </p>
+		</div>
+
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				Swipe-able Tabs
+			</div>
+			<div class="panel-body">
+				<p>
+					Here is a swipe-able tab panel, try swiping left and right on the tabs (click, drag, release, continue moving mouse for a bit)  
+				</p>
+
+				<p>
+					Note: Though, an interesting demo, this 
+					effectively disables copying of text, which may not be desirable. 
+				</p>
+			</div>
+		</div>
+		<!-- Nav tabs -->
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+			<li><a href="#profile" data-toggle="tab">Profile</a></li>
+			<li><a href="#messages" data-toggle="tab">Messages</a></li>
+			<li><a href="#settings" data-toggle="tab">Settings</a></li>
+		</ul>
+
+		<!-- Tab panes -->
+		<div class="tab-content">
+			<div class="tab-pane fade in active" id="home">
+				<p>
+					<strong>Home</strong>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra est nunc, vitae adipiscing urna cursus in. Phasellus dapibus ligula erat, eget mattis tellus feugiat vitae. Pellentesque quis orci id massa eleifend ultrices. Morbi condimentum, nibh vel dictum ultrices, ante risus venenatis erat, ac mattis massa purus ac ipsum. Cras ultricies augue elit, consequat faucibus libero ullamcorper ac. Sed dignissim arcu non dui cursus rutrum eget vitae dui. Fusce quis mi fringilla enim posuere consectetur sit amet in dolor. Nulla malesuada nibh diam, et condimentum velit consequat quis. Phasellus scelerisque ipsum in tellus sagittis vestibulum. Nunc posuere varius porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam convallis sapien eget sagittis ultrices.
+				</p>
+			</div>
+			<div class="tab-pane fade" id="profile">
+				<p>
+					<strong>Profile</strong>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra est nunc, vitae adipiscing urna cursus in. Phasellus dapibus ligula erat, eget mattis tellus feugiat vitae. Pellentesque quis orci id massa eleifend ultrices. Morbi condimentum, nibh vel dictum ultrices, ante risus venenatis erat, ac mattis massa purus ac ipsum. Cras ultricies augue elit, consequat faucibus libero ullamcorper ac. Sed dignissim arcu non dui cursus rutrum eget vitae dui. Fusce quis mi fringilla enim posuere consectetur sit amet in dolor. Nulla malesuada nibh diam, et condimentum velit consequat quis. Phasellus scelerisque ipsum in tellus sagittis vestibulum. Nunc posuere varius porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam convallis sapien eget sagittis ultrices.
+				</p>
+			</div>
+			<div class="tab-pane fade" id="messages">
+				<p>
+					<strong>Messages</strong>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra est nunc, vitae adipiscing urna cursus in. Phasellus dapibus ligula erat, eget mattis tellus feugiat vitae. Pellentesque quis orci id massa eleifend ultrices. Morbi condimentum, nibh vel dictum ultrices, ante risus venenatis erat, ac mattis massa purus ac ipsum. Cras ultricies augue elit, consequat faucibus libero ullamcorper ac. Sed dignissim arcu non dui cursus rutrum eget vitae dui. Fusce quis mi fringilla enim posuere consectetur sit amet in dolor. Nulla malesuada nibh diam, et condimentum velit consequat quis. Phasellus scelerisque ipsum in tellus sagittis vestibulum. Nunc posuere varius porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam convallis sapien eget sagittis ultrices.
+				</p>
+			</div>
+			<div class="tab-pane fade" id="settings">
+				<p>
+					<strong>Settings</strong>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra est nunc, vitae adipiscing urna cursus in. Phasellus dapibus ligula erat, eget mattis tellus feugiat vitae. Pellentesque quis orci id massa eleifend ultrices. Morbi condimentum, nibh vel dictum ultrices, ante risus venenatis erat, ac mattis massa purus ac ipsum. Cras ultricies augue elit, consequat faucibus libero ullamcorper ac. Sed dignissim arcu non dui cursus rutrum eget vitae dui. Fusce quis mi fringilla enim posuere consectetur sit amet in dolor. Nulla malesuada nibh diam, et condimentum velit consequat quis. Phasellus scelerisque ipsum in tellus sagittis vestibulum. Nunc posuere varius porta. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam convallis sapien eget sagittis ultrices.
+				</p>
+			</div>
+		</div>
+
+	</div><!-- /.container -->
+
+	<script src="vendor/jquery-2.1.0.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.js"></script>
+	<script src="vendor/hammer.js"></script>
+	<script src="vendor/jquery.hammer.js"></script>
+
+	<script src="app/js/app.js"></script>
+</body>
+</html>
